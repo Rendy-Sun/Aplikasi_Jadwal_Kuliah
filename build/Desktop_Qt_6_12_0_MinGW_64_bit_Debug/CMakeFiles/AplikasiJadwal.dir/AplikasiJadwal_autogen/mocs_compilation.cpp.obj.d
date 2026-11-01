@@ -1,7 +1,7 @@
 CMakeFiles/AplikasiJadwal.dir/AplikasiJadwal_autogen/mocs_compilation.cpp.obj: \
  E:\Project\ C++\Qt\ Creator\ Project\AplikasiJadwal\build\Desktop_Qt_6_12_0_MinGW_64_bit_Debug\AplikasiJadwal_autogen\mocs_compilation.cpp \
- E:\Project\ C++\Qt\ Creator\ Project\AplikasiJadwal\build\Desktop_Qt_6_12_0_MinGW_64_bit_Debug\AplikasiJadwal_autogen\EWIEGA46WW/moc_formtambahmatkul.cpp \
- E:/Project\ C++/Qt\ Creator\ Project/AplikasiJadwal/formtambahmatkul.h \
+ E:\Project\ C++\Qt\ Creator\ Project\AplikasiJadwal\build\Desktop_Qt_6_12_0_MinGW_64_bit_Debug\AplikasiJadwal_autogen\EWIEGA46WW/moc_formdeletematkul.cpp \
+ E:/Project\ C++/Qt\ Creator\ Project/AplikasiJadwal/formdeletematkul.h \
  C:/Qt/6.12.0/mingw_64/include/QtWidgets/QWidget \
  C:/Qt/6.12.0/mingw_64/include/QtWidgets/qwidget.h \
  C:/Qt/6.12.0/mingw_64/include/QtWidgets/qtwidgetsglobal.h \
@@ -389,6 +389,10 @@ CMakeFiles/AplikasiJadwal.dir/AplikasiJadwal_autogen/mocs_compilation.cpp.obj: \
  C:/Qt/6.12.0/mingw_64/include/QtCore/qtmochelpers.h \
  C:/Qt/6.12.0/mingw_64/include/QtCore/qtmocconstants.h \
  C:/Qt/6.12.0/mingw_64/include/QtCore/q20algorithm.h \
+ E:\Project\ C++\Qt\ Creator\ Project\AplikasiJadwal\build\Desktop_Qt_6_12_0_MinGW_64_bit_Debug\AplikasiJadwal_autogen\EWIEGA46WW/moc_formtambahmatkul.cpp \
+ E:/Project\ C++/Qt\ Creator\ Project/AplikasiJadwal/formtambahmatkul.h \
+ E:\Project\ C++\Qt\ Creator\ Project\AplikasiJadwal\build\Desktop_Qt_6_12_0_MinGW_64_bit_Debug\AplikasiJadwal_autogen\EWIEGA46WW/moc_formupdatematkul.cpp \
+ E:/Project\ C++/Qt\ Creator\ Project/AplikasiJadwal/formupdatematkul.h \
  E:\Project\ C++\Qt\ Creator\ Project\AplikasiJadwal\build\Desktop_Qt_6_12_0_MinGW_64_bit_Debug\AplikasiJadwal_autogen\EWIEGA46WW/moc_mainwindow.cpp \
  E:/Project\ C++/Qt\ Creator\ Project/AplikasiJadwal/mainwindow.h \
  C:/Qt/6.12.0/mingw_64/include/QtWidgets/QMainWindow \

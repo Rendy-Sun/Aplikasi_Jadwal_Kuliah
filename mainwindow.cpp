@@ -1,12 +1,17 @@
 #include "mainwindow.h"
 #include "./ui_mainwindow.h"
 #include "formtambahmatkul.h"
+#include "formupdatematkul.h"
+#include "formdeletematkul.h"
 
 #include <QSqlDatabase>
 #include <QSqlError>
 #include <QSqlQueryModel>
 #include <QMessageBox>
 #include <QSqlQuery>
+#include <QDate>
+#include <QLocale>
+#include <QTimer>
 
 MainWindow::MainWindow(QWidget *parent)
     : QMainWindow(parent)
@@ -17,7 +22,8 @@ MainWindow::MainWindow(QWidget *parent)
 
     //Mengatur Koneksi ke MySql XAMPP
     QSqlDatabase db = QSqlDatabase::addDatabase("QSQLITE");
-    QString databasename = "E:/Project C++/Qt Creator Project/AplikasiJadwal/Database/db_jadwal.db";
+    //QString databasename = "E:/Project C++/Qt Creator Project/AplikasiJadwal/Database/db_jadwal.db";
+    QString databasename = QCoreApplication::applicationDirPath() + "/db_jadwal.db";
     db.setDatabaseName(databasename);
 
     //Coba Buka Koneksi ke database
@@ -27,6 +33,11 @@ MainWindow::MainWindow(QWidget *parent)
         return;
     }
     TampilkanData();
+    QTimer *timer;
+    timer = new QTimer(this);
+    connect(timer, &QTimer::timeout, this, &MainWindow::LiveTime);
+    timer->start(1000);
+    LiveTime();
 }
 
 MainWindow::~MainWindow()
@@ -40,26 +51,98 @@ void MainWindow::TampilkanData(){
     model->setQuery("SELECT hari AS [HARI], mata_kuliah AS [MATA KULIAH], dari_jam AS [JAM MULAI], sampai_jam AS [JAM SELESAI], dosen AS [DOSEN], ruangan AS [RUANGAN] FROM tabel_jadwal");
     //Masukkan data ke komponen tabel view di ui
     ui->tbJadwal->setModel(model);*/
-    if(selected_hari != ""){
+    if(selected_hari != "" && selected_hari !="ALL"){
         QSqlQuery query;
         query.prepare("SELECT mata_kuliah AS [MATA KULIAH], dari_jam AS [JAM MULAI] , sampai_jam[JAM SELESAI], ruangan AS [RUANGAN], dosen AS [DOSEN] FROM tabel_jadwal WHERE hari=:selected_hari");
         query.bindValue(":selected_hari", selected_hari);
-        query.exec();
 
+        if(!query.exec())
+        {
+            QMessageBox::critical(this, "ERROR", "Error Query not Empty :" + query.lastError().text());
+            return;
+        }
+
+        QSqlQueryModel *model = new QSqlQueryModel(this);
+        model->setQuery(std::move(query));
+        ui->tbJadwal->setModel(model);
+
+    }else if(selected_hari == "ALL" && selected_hari != ""){
+        QSqlQuery query;
+        query.prepare("SELECT hari AS [HARI], mata_kuliah AS [MATA KULIAH], dari_jam AS [JAM MULAI], sampai_jam AS [JAM SELESAI], ruangan AS [RUANGAN], dosen AS [DOSEN] FROM tabel_jadwal INNER JOIN tabel_hari ON tabel_jadwal.hari = tabel_hari.nama_hari ORDER BY (tabel_hari.nama_hari) DESC, (tabel_jadwal.dari_jam) ASC");
+        if(!query.exec()){
+            QMessageBox::critical(this, "ERROR", "Error Query All" + query.lastError().text());
+            return;
+        }
         QSqlQueryModel *model = new QSqlQueryModel(this);
         model->setQuery(std::move(query));
         ui->tbJadwal->setModel(model);
     }else{
-        QSqlQuery query;
-        query.prepare("SELECT hari AS [HARI], mata_kuliah AS [MATA KULIAH], dari_jam AS [JAM MULAI] , sampai_jam[JAM SELESAI], ruangan AS [RUANGAN], dosen AS [DOSEN] FROM tabel_jadwal");
-        query.exec();
+        // Mendeteksi Hari apa hari ini
+        QDate current_date = QDate::currentDate();
+        QLocale lokalIndonesia(QLocale::Indonesian, QLocale::Indonesia);
+        QString current_day = lokalIndonesia.toString(current_date, "dddd");
+        selected_hari = current_day;
 
-        QSqlQueryModel *model = new QSqlQueryModel(this);
-        model->setQuery(std::move(query));
-        ui->tbJadwal->setModel(model);
+        if(selected_hari == "Sabtu" || selected_hari == "Minggu"){
+            QSqlQuery query;
+            query.prepare("SELECT hari AS [HARI], mata_kuliah AS [MATA KULIAH], dari_jam AS [JAM MULAI], sampai_jam AS [JAM SELESAI], ruangan AS [RUANGAN], dosen AS [DOSEN] FROM tabel_jadwal INNER JOIN tabel_hari ON tabel_jadwal.hari = tabel_hari.nama_hari ORDER BY (tabel_hari.nama_hari) DESC, (tabel_jadwal.dari_jam) ASC");
+            if(!query.exec()){
+                QMessageBox::critical(this, "ERROR", "Error Query All" + query.lastError().text());
+                return;
+            }
+            QSqlQueryModel *model = new QSqlQueryModel(this);
+            model->setQuery(std::move(query));
+            ui->tbJadwal->setModel(model);
+        }else
+        {
+            QSqlQuery query;
+            query.prepare("SELECT hari AS [HARI], mata_kuliah AS [MATA KULIAH], dari_jam AS [JAM MULAI] , sampai_jam[JAM SELESAI], ruangan AS [RUANGAN], dosen AS [DOSEN] FROM tabel_jadwal WHERE hari=:selected_hari ");
+            query.bindValue(":selected_hari", selected_hari);
+            if(!query.exec()){
+                QMessageBox::critical(this, "ERROR", "Error Query else :" +query.lastError().text());
+                return;
+            }
+
+            QSqlQueryModel *model = new QSqlQueryModel(this);
+            model->setQuery(std::move(query));
+            ui->tbJadwal->setModel(model);
+        }
+
+        if(selected_hari == "Senin")
+        {
+            ui->btSenin->setEnabled(false);
+        }
+        else if(selected_hari == "Selasa")
+        {
+            ui->btSelasa->setEnabled(false);
+        }
+        else if(selected_hari == "Rabu")
+        {
+            ui->btRabu->setEnabled(false);
+        }
+        else if(selected_hari == "Kamis")
+        {
+            ui->btKamis->setEnabled(false);
+        }
+        else if(selected_hari == "Jumat")
+        {
+            ui->Jumat->setEnabled(false);
+        }
+        else
+        {
+            //QMessageBox::critical(this, "ERROR", "Error Penyeleksian Hari");
+            ui->pbSemua->setEnabled(false);
+        }
     }
 }
 
+void MainWindow::LiveTime(){
+    QDateTime currentDateTime = QDateTime::currentDateTime();
+    QLocale lokalIndonesia(QLocale::Indonesian, QLocale::Indonesia);
+    QString liveTimeText = lokalIndonesia.toString(currentDateTime, "dddd, dd MMMM yyyy - HH:mm:ss");
+    ui->lbtime->setText(liveTimeText);
+
+}
 void MainWindow::on_btSenin_clicked()
 {
     selected_hari = "Senin";
@@ -128,13 +211,13 @@ void MainWindow::on_btTambahMatkul_clicked()
 {
     FormTambahMatkul *form = new FormTambahMatkul();
     form->show();
-    this->close();
+    this->hide();
 }
 
 
 void MainWindow::on_pbSemua_clicked()
 {
-    selected_hari = "";
+    selected_hari = "ALL";
     TampilkanData();
     ui->btSenin->setEnabled(true);
     ui->pbSemua->setEnabled(false);
@@ -142,5 +225,21 @@ void MainWindow::on_pbSemua_clicked()
     ui->btRabu->setEnabled(true);
     ui->btKamis->setEnabled(true);
     ui->Jumat->setEnabled(true);
+}
+
+
+void MainWindow::on_pbUpdate_clicked()
+{
+    FormUpdateMatkul *form = new FormUpdateMatkul();
+    form->show();
+    this->hide();
+}
+
+
+void MainWindow::on_pbDelete_clicked()
+{
+    FormDeleteMatkul *form = new FormDeleteMatkul();
+    form->show();
+    this->hide();
 }
 

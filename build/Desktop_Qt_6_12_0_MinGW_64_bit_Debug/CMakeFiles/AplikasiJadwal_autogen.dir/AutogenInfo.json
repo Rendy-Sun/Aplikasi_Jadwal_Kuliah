@@ -394,9 +394,21 @@
 	"HEADERS" : 
 	[
 		[
+			"E:/Project C++/Qt Creator Project/AplikasiJadwal/formdeletematkul.h",
+			"MU",
+			"EWIEGA46WW/moc_formdeletematkul.cpp",
+			null
+		],
+		[
 			"E:/Project C++/Qt Creator Project/AplikasiJadwal/formtambahmatkul.h",
 			"MU",
 			"EWIEGA46WW/moc_formtambahmatkul.cpp",
+			null
+		],
+		[
+			"E:/Project C++/Qt Creator Project/AplikasiJadwal/formupdatematkul.h",
+			"MU",
+			"EWIEGA46WW/moc_formupdatematkul.cpp",
 			null
 		],
 		[
@@ -481,7 +493,17 @@
 	"SOURCES" : 
 	[
 		[
+			"E:/Project C++/Qt Creator Project/AplikasiJadwal/formdeletematkul.cpp",
+			"MU",
+			null
+		],
+		[
 			"E:/Project C++/Qt Creator Project/AplikasiJadwal/formtambahmatkul.cpp",
+			"MU",
+			null
+		],
+		[
+			"E:/Project C++/Qt Creator Project/AplikasiJadwal/formupdatematkul.cpp",
 			"MU",
 			null
 		],

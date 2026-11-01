@@ -642,11 +642,17 @@ AplikasiJadwal_autogen/timestamp: \
 	E:/Project\ C++/Qt\ Creator\ Project/AplikasiJadwal/build/Desktop_Qt_6_12_0_MinGW_64_bit_Debug/CMakeFiles/3.30.5/CMakeCXXCompiler.cmake \
 	E:/Project\ C++/Qt\ Creator\ Project/AplikasiJadwal/build/Desktop_Qt_6_12_0_MinGW_64_bit_Debug/CMakeFiles/3.30.5/CMakeRCCompiler.cmake \
 	E:/Project\ C++/Qt\ Creator\ Project/AplikasiJadwal/build/Desktop_Qt_6_12_0_MinGW_64_bit_Debug/CMakeFiles/3.30.5/CMakeSystem.cmake \
+	E:/Project\ C++/Qt\ Creator\ Project/AplikasiJadwal/formdeletematkul.cpp \
+	E:/Project\ C++/Qt\ Creator\ Project/AplikasiJadwal/formdeletematkul.h \
 	E:/Project\ C++/Qt\ Creator\ Project/AplikasiJadwal/formtambahmatkul.cpp \
 	E:/Project\ C++/Qt\ Creator\ Project/AplikasiJadwal/formtambahmatkul.h \
+	E:/Project\ C++/Qt\ Creator\ Project/AplikasiJadwal/formupdatematkul.cpp \
+	E:/Project\ C++/Qt\ Creator\ Project/AplikasiJadwal/formupdatematkul.h \
 	E:/Project\ C++/Qt\ Creator\ Project/AplikasiJadwal/main.cpp \
 	E:/Project\ C++/Qt\ Creator\ Project/AplikasiJadwal/mainwindow.cpp \
 	E:/Project\ C++/Qt\ Creator\ Project/AplikasiJadwal/mainwindow.h \
+	E:/Project\ C++/Qt\ Creator\ Project/AplikasiJadwal/formdeletematkul.ui \
 	E:/Project\ C++/Qt\ Creator\ Project/AplikasiJadwal/formtambahmatkul.ui \
+	E:/Project\ C++/Qt\ Creator\ Project/AplikasiJadwal/formupdatematkul.ui \
 	E:/Project\ C++/Qt\ Creator\ Project/AplikasiJadwal/mainwindow.ui \
 	C:/Qt/Tools/CMake_64/bin/cmake.exe

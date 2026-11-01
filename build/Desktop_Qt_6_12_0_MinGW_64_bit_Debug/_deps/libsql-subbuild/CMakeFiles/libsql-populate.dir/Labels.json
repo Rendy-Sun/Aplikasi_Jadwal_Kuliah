@@ -1,0 +1,46 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "E:/Project C++/Qt Creator Project/AplikasiJadwal/build/Desktop_Qt_6_12_0_MinGW_64_bit_Debug/_deps/libsql-subbuild/CMakeFiles/libsql-populate"
+		},
+		{
+			"file" : "E:/Project C++/Qt Creator Project/AplikasiJadwal/build/Desktop_Qt_6_12_0_MinGW_64_bit_Debug/_deps/libsql-subbuild/CMakeFiles/libsql-populate.rule"
+		},
+		{
+			"file" : "E:/Project C++/Qt Creator Project/AplikasiJadwal/build/Desktop_Qt_6_12_0_MinGW_64_bit_Debug/_deps/libsql-subbuild/CMakeFiles/libsql-populate-complete.rule"
+		},
+		{
+			"file" : "E:/Project C++/Qt Creator Project/AplikasiJadwal/build/Desktop_Qt_6_12_0_MinGW_64_bit_Debug/_deps/libsql-subbuild/libsql-populate-prefix/src/libsql-populate-stamp/libsql-populate-build.rule"
+		},
+		{
+			"file" : "E:/Project C++/Qt Creator Project/AplikasiJadwal/build/Desktop_Qt_6_12_0_MinGW_64_bit_Debug/_deps/libsql-subbuild/libsql-populate-prefix/src/libsql-populate-stamp/libsql-populate-configure.rule"
+		},
+		{
+			"file" : "E:/Project C++/Qt Creator Project/AplikasiJadwal/build/Desktop_Qt_6_12_0_MinGW_64_bit_Debug/_deps/libsql-subbuild/libsql-populate-prefix/src/libsql-populate-stamp/libsql-populate-download.rule"
+		},
+		{
+			"file" : "E:/Project C++/Qt Creator Project/AplikasiJadwal/build/Desktop_Qt_6_12_0_MinGW_64_bit_Debug/_deps/libsql-subbuild/libsql-populate-prefix/src/libsql-populate-stamp/libsql-populate-install.rule"
+		},
+		{
+			"file" : "E:/Project C++/Qt Creator Project/AplikasiJadwal/build/Desktop_Qt_6_12_0_MinGW_64_bit_Debug/_deps/libsql-subbuild/libsql-populate-prefix/src/libsql-populate-stamp/libsql-populate-mkdir.rule"
+		},
+		{
+			"file" : "E:/Project C++/Qt Creator Project/AplikasiJadwal/build/Desktop_Qt_6_12_0_MinGW_64_bit_Debug/_deps/libsql-subbuild/libsql-populate-prefix/src/libsql-populate-stamp/libsql-populate-patch.rule"
+		},
+		{
+			"file" : "E:/Project C++/Qt Creator Project/AplikasiJadwal/build/Desktop_Qt_6_12_0_MinGW_64_bit_Debug/_deps/libsql-subbuild/libsql-populate-prefix/src/libsql-populate-stamp/libsql-populate-test.rule"
+		},
+		{
+			"file" : "E:/Project C++/Qt Creator Project/AplikasiJadwal/build/Desktop_Qt_6_12_0_MinGW_64_bit_Debug/_deps/libsql-subbuild/libsql-populate-prefix/src/libsql-populate-stamp/libsql-populate-update.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"libsql-populate"
+		],
+		"name" : "libsql-populate"
+	}
+}

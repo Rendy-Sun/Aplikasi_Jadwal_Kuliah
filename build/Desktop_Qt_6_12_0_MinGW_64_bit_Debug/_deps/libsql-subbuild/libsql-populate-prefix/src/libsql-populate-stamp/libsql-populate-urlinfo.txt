@@ -1,0 +1,12 @@
+# This is a generated file and its contents are an internal implementation detail.
+# The download step will be re-executed if anything in this file changes.
+# No other meaning or use of this file is supported.
+
+method=url
+command=C:/Qt/Tools/CMake_64/bin/cmake.exe;-DCMAKE_MESSAGE_LOG_LEVEL=VERBOSE;-P;E:/Project C++/Qt Creator Project/AplikasiJadwal/build/Desktop_Qt_6_12_0_MinGW_64_bit_Debug/_deps/libsql-subbuild/libsql-populate-prefix/src/libsql-populate-stamp/download-libsql-populate.cmake;COMMAND;C:/Qt/Tools/CMake_64/bin/cmake.exe;-DCMAKE_MESSAGE_LOG_LEVEL=VERBOSE;-P;E:/Project C++/Qt Creator Project/AplikasiJadwal/build/Desktop_Qt_6_12_0_MinGW_64_bit_Debug/_deps/libsql-subbuild/libsql-populate-prefix/src/libsql-populate-stamp/verify-libsql-populate.cmake;COMMAND;C:/Qt/Tools/CMake_64/bin/cmake.exe;-DCMAKE_MESSAGE_LOG_LEVEL=VERBOSE;-P;E:/Project C++/Qt Creator Project/AplikasiJadwal/build/Desktop_Qt_6_12_0_MinGW_64_bit_Debug/_deps/libsql-subbuild/libsql-populate-prefix/src/libsql-populate-stamp/extract-libsql-populate.cmake
+source_dir=E:/Project C++/Qt Creator Project/AplikasiJadwal/build/Desktop_Qt_6_12_0_MinGW_64_bit_Debug/_deps/libsql-src
+work_dir=E:/Project C++/Qt Creator Project/AplikasiJadwal/build/Desktop_Qt_6_12_0_MinGW_64_bit_Debug/_deps
+url(s)=https://github.com/tursodatabase/libsql-client-cpp.git
+hash=
+      no_extract=
+

@@ -440,6 +440,8 @@ CMakeFiles/AplikasiJadwal.dir/mainwindow.cpp.obj: \
  C:/Qt/6.12.0/mingw_64/include/QtWidgets/QWidget \
  E:\Project\ C++\Qt\ Creator\ Project\AplikasiJadwal\formtambahmatkul.h \
  C:/Qt/6.12.0/mingw_64/include/QtWidgets/QWidget \
+ E:\Project\ C++\Qt\ Creator\ Project\AplikasiJadwal\formupdatematkul.h \
+ E:\Project\ C++\Qt\ Creator\ Project\AplikasiJadwal\formdeletematkul.h \
  C:/Qt/6.12.0/mingw_64/include/QtSql/QSqlDatabase \
  C:/Qt/6.12.0/mingw_64/include/QtSql/qsqldatabase.h \
  C:/Qt/6.12.0/mingw_64/include/QtSql/qtsqlglobal.h \
@@ -455,4 +457,10 @@ CMakeFiles/AplikasiJadwal.dir/mainwindow.cpp.obj: \
  C:/Qt/6.12.0/mingw_64/include/QtWidgets/qdialog.h \
  C:/Qt/6.12.0/mingw_64/include/QtWidgets/qdialogbuttonbox.h \
  C:/Qt/6.12.0/mingw_64/include/QtSql/QSqlQuery \
- C:/Qt/6.12.0/mingw_64/include/QtSql/qsqlquery.h
+ C:/Qt/6.12.0/mingw_64/include/QtSql/qsqlquery.h \
+ C:/Qt/6.12.0/mingw_64/include/QtCore/QDate \
+ C:/Qt/6.12.0/mingw_64/include/QtCore/qdatetime.h \
+ C:/Qt/6.12.0/mingw_64/include/QtCore/qcalendar.h \
+ C:/Qt/6.12.0/mingw_64/include/QtCore/QLocale \
+ C:/Qt/6.12.0/mingw_64/include/QtCore/QTimer \
+ C:/Qt/6.12.0/mingw_64/include/QtCore/qtimer.h

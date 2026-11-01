@@ -223,6 +223,30 @@ AplikasiJadwal_autogen/mocs_compilation.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\AplikasiJadwal.dir\build.make CMakeFiles/AplikasiJadwal.dir/AplikasiJadwal_autogen/mocs_compilation.cpp.s
 .PHONY : AplikasiJadwal_autogen/mocs_compilation.cpp.s
 
+formdeletematkul.obj: formdeletematkul.cpp.obj
+.PHONY : formdeletematkul.obj
+
+# target to build an object file
+formdeletematkul.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\AplikasiJadwal.dir\build.make CMakeFiles/AplikasiJadwal.dir/formdeletematkul.cpp.obj
+.PHONY : formdeletematkul.cpp.obj
+
+formdeletematkul.i: formdeletematkul.cpp.i
+.PHONY : formdeletematkul.i
+
+# target to preprocess a source file
+formdeletematkul.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\AplikasiJadwal.dir\build.make CMakeFiles/AplikasiJadwal.dir/formdeletematkul.cpp.i
+.PHONY : formdeletematkul.cpp.i
+
+formdeletematkul.s: formdeletematkul.cpp.s
+.PHONY : formdeletematkul.s
+
+# target to generate assembly for a file
+formdeletematkul.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\AplikasiJadwal.dir\build.make CMakeFiles/AplikasiJadwal.dir/formdeletematkul.cpp.s
+.PHONY : formdeletematkul.cpp.s
+
 formtambahmatkul.obj: formtambahmatkul.cpp.obj
 .PHONY : formtambahmatkul.obj
 
@@ -246,6 +270,30 @@ formtambahmatkul.s: formtambahmatkul.cpp.s
 formtambahmatkul.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\AplikasiJadwal.dir\build.make CMakeFiles/AplikasiJadwal.dir/formtambahmatkul.cpp.s
 .PHONY : formtambahmatkul.cpp.s
+
+formupdatematkul.obj: formupdatematkul.cpp.obj
+.PHONY : formupdatematkul.obj
+
+# target to build an object file
+formupdatematkul.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\AplikasiJadwal.dir\build.make CMakeFiles/AplikasiJadwal.dir/formupdatematkul.cpp.obj
+.PHONY : formupdatematkul.cpp.obj
+
+formupdatematkul.i: formupdatematkul.cpp.i
+.PHONY : formupdatematkul.i
+
+# target to preprocess a source file
+formupdatematkul.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\AplikasiJadwal.dir\build.make CMakeFiles/AplikasiJadwal.dir/formupdatematkul.cpp.i
+.PHONY : formupdatematkul.cpp.i
+
+formupdatematkul.s: formupdatematkul.cpp.s
+.PHONY : formupdatematkul.s
+
+# target to generate assembly for a file
+formupdatematkul.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\AplikasiJadwal.dir\build.make CMakeFiles/AplikasiJadwal.dir/formupdatematkul.cpp.s
+.PHONY : formupdatematkul.cpp.s
 
 main.obj: main.cpp.obj
 .PHONY : main.obj
@@ -313,9 +361,15 @@ help:
 	@echo ... AplikasiJadwal_autogen/mocs_compilation.obj
 	@echo ... AplikasiJadwal_autogen/mocs_compilation.i
 	@echo ... AplikasiJadwal_autogen/mocs_compilation.s
+	@echo ... formdeletematkul.obj
+	@echo ... formdeletematkul.i
+	@echo ... formdeletematkul.s
 	@echo ... formtambahmatkul.obj
 	@echo ... formtambahmatkul.i
 	@echo ... formtambahmatkul.s
+	@echo ... formupdatematkul.obj
+	@echo ... formupdatematkul.i
+	@echo ... formupdatematkul.s
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s

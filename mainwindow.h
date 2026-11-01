@@ -33,8 +33,13 @@ private slots:
 
     void on_pbSemua_clicked();
 
+    void on_pbUpdate_clicked();
+
+    void on_pbDelete_clicked();
+
 private:
     Ui::MainWindow *ui;
     void TampilkanData();
+    void LiveTime();
 };
 #endif // MAINWINDOW_H

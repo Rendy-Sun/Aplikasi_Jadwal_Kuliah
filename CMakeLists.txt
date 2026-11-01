@@ -24,6 +24,9 @@ if(${QT_VERSION_MAJOR} GREATER_EQUAL 6)
         MANUAL_FINALIZATION
         ${PROJECT_SOURCES}
         formtambahmatkul.h formtambahmatkul.cpp formtambahmatkul.ui
+        formupdatematkul.h formupdatematkul.cpp formupdatematkul.ui
+        formdeletematkul.h formdeletematkul.cpp formdeletematkul.ui
+
 
 
     )
@@ -44,6 +47,7 @@ else()
         )
     endif()
 endif()
+
 
 target_link_libraries(AplikasiJadwal PRIVATE
     Qt${QT_VERSION_MAJOR}::Widgets
