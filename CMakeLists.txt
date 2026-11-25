@@ -26,6 +26,8 @@ if(${QT_VERSION_MAJOR} GREATER_EQUAL 6)
         formtambahmatkul.h formtambahmatkul.cpp formtambahmatkul.ui
         formupdatematkul.h formupdatematkul.cpp formupdatematkul.ui
         formdeletematkul.h formdeletematkul.cpp formdeletematkul.ui
+        formdaftartugas.h formdaftartugas.cpp formdaftartugas.ui
+        statusdelegate.h statusdelegate.cpp
 
 
 

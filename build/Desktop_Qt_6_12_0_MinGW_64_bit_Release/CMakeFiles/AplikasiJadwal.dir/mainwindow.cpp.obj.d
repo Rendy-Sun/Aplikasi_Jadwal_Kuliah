@@ -433,15 +433,23 @@ CMakeFiles/AplikasiJadwal.dir/mainwindow.cpp.obj: \
  C:/Qt/6.12.0/mingw_64/include/QtWidgets/QPushButton \
  C:/Qt/6.12.0/mingw_64/include/QtWidgets/qpushbutton.h \
  C:/Qt/6.12.0/mingw_64/include/QtWidgets/qabstractbutton.h \
+ C:/Qt/6.12.0/mingw_64/include/QtWidgets/QScrollArea \
+ C:/Qt/6.12.0/mingw_64/include/QtWidgets/qscrollarea.h \
  C:/Qt/6.12.0/mingw_64/include/QtWidgets/QStatusBar \
  C:/Qt/6.12.0/mingw_64/include/QtWidgets/qstatusbar.h \
  C:/Qt/6.12.0/mingw_64/include/QtWidgets/QTableView \
  C:/Qt/6.12.0/mingw_64/include/QtWidgets/qtableview.h \
+ C:/Qt/6.12.0/mingw_64/include/QtWidgets/QVBoxLayout \
+ C:/Qt/6.12.0/mingw_64/include/QtWidgets/qboxlayout.h \
+ C:/Qt/6.12.0/mingw_64/include/QtWidgets/qlayout.h \
+ C:/Qt/6.12.0/mingw_64/include/QtWidgets/qlayoutitem.h \
+ C:/Qt/6.12.0/mingw_64/include/QtWidgets/qgridlayout.h \
  C:/Qt/6.12.0/mingw_64/include/QtWidgets/QWidget \
  E:\Project\ C++\Qt\ Creator\ Project\AplikasiJadwal\formtambahmatkul.h \
  C:/Qt/6.12.0/mingw_64/include/QtWidgets/QWidget \
  E:\Project\ C++\Qt\ Creator\ Project\AplikasiJadwal\formupdatematkul.h \
  E:\Project\ C++\Qt\ Creator\ Project\AplikasiJadwal\formdeletematkul.h \
+ E:\Project\ C++\Qt\ Creator\ Project\AplikasiJadwal\formdaftartugas.h \
  C:/Qt/6.12.0/mingw_64/include/QtSql/QSqlDatabase \
  C:/Qt/6.12.0/mingw_64/include/QtSql/qsqldatabase.h \
  C:/Qt/6.12.0/mingw_64/include/QtSql/qtsqlglobal.h \

@@ -1,7 +1,7 @@
 CMakeFiles/AplikasiJadwal.dir/AplikasiJadwal_autogen/mocs_compilation.cpp.obj: \
  E:\Project\ C++\Qt\ Creator\ Project\AplikasiJadwal\build\Desktop_Qt_6_12_0_MinGW_64_bit_Release\AplikasiJadwal_autogen\mocs_compilation.cpp \
- E:\Project\ C++\Qt\ Creator\ Project\AplikasiJadwal\build\Desktop_Qt_6_12_0_MinGW_64_bit_Release\AplikasiJadwal_autogen\EWIEGA46WW/moc_formdeletematkul.cpp \
- E:/Project\ C++/Qt\ Creator\ Project/AplikasiJadwal/formdeletematkul.h \
+ E:\Project\ C++\Qt\ Creator\ Project\AplikasiJadwal\build\Desktop_Qt_6_12_0_MinGW_64_bit_Release\AplikasiJadwal_autogen\EWIEGA46WW/moc_formdaftartugas.cpp \
+ E:/Project\ C++/Qt\ Creator\ Project/AplikasiJadwal/formdaftartugas.h \
  C:/Qt/6.12.0/mingw_64/include/QtWidgets/QWidget \
  C:/Qt/6.12.0/mingw_64/include/QtWidgets/qwidget.h \
  C:/Qt/6.12.0/mingw_64/include/QtWidgets/qtwidgetsglobal.h \
@@ -389,6 +389,8 @@ CMakeFiles/AplikasiJadwal.dir/AplikasiJadwal_autogen/mocs_compilation.cpp.obj: \
  C:/Qt/6.12.0/mingw_64/include/QtCore/qtmochelpers.h \
  C:/Qt/6.12.0/mingw_64/include/QtCore/qtmocconstants.h \
  C:/Qt/6.12.0/mingw_64/include/QtCore/q20algorithm.h \
+ E:\Project\ C++\Qt\ Creator\ Project\AplikasiJadwal\build\Desktop_Qt_6_12_0_MinGW_64_bit_Release\AplikasiJadwal_autogen\EWIEGA46WW/moc_formdeletematkul.cpp \
+ E:/Project\ C++/Qt\ Creator\ Project/AplikasiJadwal/formdeletematkul.h \
  E:\Project\ C++\Qt\ Creator\ Project\AplikasiJadwal\build\Desktop_Qt_6_12_0_MinGW_64_bit_Release\AplikasiJadwal_autogen\EWIEGA46WW/moc_formtambahmatkul.cpp \
  E:/Project\ C++/Qt\ Creator\ Project/AplikasiJadwal/formtambahmatkul.h \
  E:\Project\ C++\Qt\ Creator\ Project\AplikasiJadwal\build\Desktop_Qt_6_12_0_MinGW_64_bit_Release\AplikasiJadwal_autogen\EWIEGA46WW/moc_formupdatematkul.cpp \
@@ -397,4 +399,22 @@ CMakeFiles/AplikasiJadwal.dir/AplikasiJadwal_autogen/mocs_compilation.cpp.obj: \
  E:/Project\ C++/Qt\ Creator\ Project/AplikasiJadwal/mainwindow.h \
  C:/Qt/6.12.0/mingw_64/include/QtWidgets/QMainWindow \
  C:/Qt/6.12.0/mingw_64/include/QtWidgets/qmainwindow.h \
- C:/Qt/6.12.0/mingw_64/include/QtWidgets/qtabwidget.h
+ C:/Qt/6.12.0/mingw_64/include/QtWidgets/qtabwidget.h \
+ E:\Project\ C++\Qt\ Creator\ Project\AplikasiJadwal\build\Desktop_Qt_6_12_0_MinGW_64_bit_Release\AplikasiJadwal_autogen\EWIEGA46WW/moc_statusdelegate.cpp \
+ E:/Project\ C++/Qt\ Creator\ Project/AplikasiJadwal/statusdelegate.h \
+ C:/Qt/6.12.0/mingw_64/include/QtCore/QObject \
+ C:/Qt/6.12.0/mingw_64/include/QtWidgets/QStyledItemDelegate \
+ C:/Qt/6.12.0/mingw_64/include/QtWidgets/qstyleditemdelegate.h \
+ C:/Qt/6.12.0/mingw_64/include/QtWidgets/qabstractitemdelegate.h \
+ C:/Qt/6.12.0/mingw_64/include/QtWidgets/qstyleoption.h \
+ C:/Qt/6.12.0/mingw_64/include/QtCore/qlocale.h \
+ C:/Qt/6.12.0/mingw_64/include/QtWidgets/qabstractspinbox.h \
+ C:/Qt/6.12.0/mingw_64/include/QtGui/qvalidator.h \
+ C:/Qt/6.12.0/mingw_64/include/QtCore/qregularexpression.h \
+ C:/Qt/6.12.0/mingw_64/include/QtWidgets/qslider.h \
+ C:/Qt/6.12.0/mingw_64/include/QtWidgets/qabstractslider.h \
+ C:/Qt/6.12.0/mingw_64/include/QtWidgets/qstyle.h \
+ C:/Qt/6.12.0/mingw_64/include/QtWidgets/qtabbar.h \
+ C:/Qt/6.12.0/mingw_64/include/QtWidgets/qrubberband.h \
+ C:/Qt/6.12.0/mingw_64/include/QtWidgets/qframe.h \
+ C:/Qt/6.12.0/mingw_64/include/QtCore/qabstractitemmodel.h

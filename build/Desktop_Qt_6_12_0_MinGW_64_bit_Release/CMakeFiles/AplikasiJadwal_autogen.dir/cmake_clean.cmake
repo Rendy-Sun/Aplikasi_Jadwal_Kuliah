@@ -1,4 +1,5 @@
 file(REMOVE_RECURSE
+  "AplikasiJadwal_autogen/include/ui_formdaftartugas.h"
   "AplikasiJadwal_autogen/include/ui_formdeletematkul.h"
   "AplikasiJadwal_autogen/include/ui_formtambahmatkul.h"
   "AplikasiJadwal_autogen/include/ui_formupdatematkul.h"

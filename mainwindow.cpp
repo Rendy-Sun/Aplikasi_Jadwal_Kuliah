@@ -3,6 +3,7 @@
 #include "formtambahmatkul.h"
 #include "formupdatematkul.h"
 #include "formdeletematkul.h"
+#include "formdaftartugas.h"
 
 #include <QSqlDatabase>
 #include <QSqlError>
@@ -22,8 +23,8 @@ MainWindow::MainWindow(QWidget *parent)
 
     //Mengatur Koneksi ke MySql XAMPP
     QSqlDatabase db = QSqlDatabase::addDatabase("QSQLITE");
-    //QString databasename = "E:/Project C++/Qt Creator Project/AplikasiJadwal/Database/db_jadwal.db";
-    QString databasename = QCoreApplication::applicationDirPath() + "/db_jadwal.db";
+    QString databasename = "G:/My Drive/Database/AplikasiJadwal/db_jadwal.db";
+    //QString databasename = QCoreApplication::applicationDirPath() + "/db_jadwal.db";
     db.setDatabaseName(databasename);
 
     //Coba Buka Koneksi ke database
@@ -239,6 +240,14 @@ void MainWindow::on_pbUpdate_clicked()
 void MainWindow::on_pbDelete_clicked()
 {
     FormDeleteMatkul *form = new FormDeleteMatkul();
+    form->show();
+    this->hide();
+}
+
+
+void MainWindow::on_pushButton_clicked()
+{
+    FormDaftarTugas *form = new FormDaftarTugas();
     form->show();
     this->hide();
 }

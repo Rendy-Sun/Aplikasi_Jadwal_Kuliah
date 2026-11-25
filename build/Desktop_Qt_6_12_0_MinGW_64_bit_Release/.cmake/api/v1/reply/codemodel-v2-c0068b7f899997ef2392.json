@@ -7,7 +7,7 @@
 				{
 					"build" : ".",
 					"hasInstallRule" : true,
-					"jsonFile" : "directory-.-Release-c5ecce1651ec24c5dedb.json",
+					"jsonFile" : "directory-.-Release-b983f8e6ccbdd3455257.json",
 					"minimumCMakeVersion" : 
 					{
 						"string" : "3.16"
@@ -44,7 +44,7 @@
 				{
 					"directoryIndex" : 0,
 					"id" : "AplikasiJadwal::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-AplikasiJadwal-Release-724f0a3438e7cdef8ca4.json",
+					"jsonFile" : "target-AplikasiJadwal-Release-aaadfae508c545e277ba.json",
 					"name" : "AplikasiJadwal",
 					"projectIndex" : 0
 				},

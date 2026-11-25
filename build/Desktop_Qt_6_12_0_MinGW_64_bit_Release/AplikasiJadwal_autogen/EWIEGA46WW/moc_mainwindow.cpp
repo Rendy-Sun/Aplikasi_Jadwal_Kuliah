@@ -48,7 +48,8 @@ template <> constexpr inline auto MainWindow::qt_create_metaobjectdata<qt_meta_t
         "on_btTambahMatkul_clicked",
         "on_pbSemua_clicked",
         "on_pbUpdate_clicked",
-        "on_pbDelete_clicked"
+        "on_pbDelete_clicked",
+        "on_pushButton_clicked"
     };
 
     QtMocHelpers::UintData qt_methods {
@@ -70,6 +71,8 @@ template <> constexpr inline auto MainWindow::qt_create_metaobjectdata<qt_meta_t
         QtMocHelpers::SlotData<void()>(9, 2, QMC::AccessPrivate, QMetaType::Void),
         // Slot 'on_pbDelete_clicked'
         QtMocHelpers::SlotData<void()>(10, 2, QMC::AccessPrivate, QMetaType::Void),
+        // Slot 'on_pushButton_clicked'
+        QtMocHelpers::SlotData<void()>(11, 2, QMC::AccessPrivate, QMetaType::Void),
     };
     QtMocHelpers::UintData qt_properties {
     };
@@ -102,6 +105,7 @@ void MainWindow::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _id, 
         case 6: _t->on_pbSemua_clicked(); break;
         case 7: _t->on_pbUpdate_clicked(); break;
         case 8: _t->on_pbDelete_clicked(); break;
+        case 9: _t->on_pushButton_clicked(); break;
         default: ;
         }
     }
@@ -127,14 +131,14 @@ int MainWindow::qt_metacall(QMetaObject::Call _c, int _id, void **_a)
     if (_id < 0)
         return _id;
     if (_c == QMetaObject::InvokeMetaMethod) {
-        if (_id < 9)
+        if (_id < 10)
             qt_static_metacall(this, _c, _id, _a);
-        _id -= 9;
+        _id -= 10;
     }
     if (_c == QMetaObject::RegisterMethodArgumentMetaType) {
-        if (_id < 9)
+        if (_id < 10)
             *reinterpret_cast<QMetaType *>(_a[0]) = QMetaType();
-        _id -= 9;
+        _id -= 10;
     }
     return _id;
 }

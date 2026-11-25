@@ -37,6 +37,8 @@ private slots:
 
     void on_pbDelete_clicked();
 
+    void on_pushButton_clicked();
+
 private:
     Ui::MainWindow *ui;
     void TampilkanData();

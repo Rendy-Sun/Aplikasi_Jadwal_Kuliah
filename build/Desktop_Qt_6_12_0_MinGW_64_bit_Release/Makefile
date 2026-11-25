@@ -223,6 +223,30 @@ AplikasiJadwal_autogen/mocs_compilation.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\AplikasiJadwal.dir\build.make CMakeFiles/AplikasiJadwal.dir/AplikasiJadwal_autogen/mocs_compilation.cpp.s
 .PHONY : AplikasiJadwal_autogen/mocs_compilation.cpp.s
 
+formdaftartugas.obj: formdaftartugas.cpp.obj
+.PHONY : formdaftartugas.obj
+
+# target to build an object file
+formdaftartugas.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\AplikasiJadwal.dir\build.make CMakeFiles/AplikasiJadwal.dir/formdaftartugas.cpp.obj
+.PHONY : formdaftartugas.cpp.obj
+
+formdaftartugas.i: formdaftartugas.cpp.i
+.PHONY : formdaftartugas.i
+
+# target to preprocess a source file
+formdaftartugas.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\AplikasiJadwal.dir\build.make CMakeFiles/AplikasiJadwal.dir/formdaftartugas.cpp.i
+.PHONY : formdaftartugas.cpp.i
+
+formdaftartugas.s: formdaftartugas.cpp.s
+.PHONY : formdaftartugas.s
+
+# target to generate assembly for a file
+formdaftartugas.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\AplikasiJadwal.dir\build.make CMakeFiles/AplikasiJadwal.dir/formdaftartugas.cpp.s
+.PHONY : formdaftartugas.cpp.s
+
 formdeletematkul.obj: formdeletematkul.cpp.obj
 .PHONY : formdeletematkul.obj
 
@@ -343,6 +367,30 @@ mainwindow.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\AplikasiJadwal.dir\build.make CMakeFiles/AplikasiJadwal.dir/mainwindow.cpp.s
 .PHONY : mainwindow.cpp.s
 
+statusdelegate.obj: statusdelegate.cpp.obj
+.PHONY : statusdelegate.obj
+
+# target to build an object file
+statusdelegate.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\AplikasiJadwal.dir\build.make CMakeFiles/AplikasiJadwal.dir/statusdelegate.cpp.obj
+.PHONY : statusdelegate.cpp.obj
+
+statusdelegate.i: statusdelegate.cpp.i
+.PHONY : statusdelegate.i
+
+# target to preprocess a source file
+statusdelegate.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\AplikasiJadwal.dir\build.make CMakeFiles/AplikasiJadwal.dir/statusdelegate.cpp.i
+.PHONY : statusdelegate.cpp.i
+
+statusdelegate.s: statusdelegate.cpp.s
+.PHONY : statusdelegate.s
+
+# target to generate assembly for a file
+statusdelegate.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\AplikasiJadwal.dir\build.make CMakeFiles/AplikasiJadwal.dir/statusdelegate.cpp.s
+.PHONY : statusdelegate.cpp.s
+
 # Help Target
 help:
 	@echo The following are some of the valid targets for this Makefile:
@@ -361,6 +409,9 @@ help:
 	@echo ... AplikasiJadwal_autogen/mocs_compilation.obj
 	@echo ... AplikasiJadwal_autogen/mocs_compilation.i
 	@echo ... AplikasiJadwal_autogen/mocs_compilation.s
+	@echo ... formdaftartugas.obj
+	@echo ... formdaftartugas.i
+	@echo ... formdaftartugas.s
 	@echo ... formdeletematkul.obj
 	@echo ... formdeletematkul.i
 	@echo ... formdeletematkul.s
@@ -376,6 +427,9 @@ help:
 	@echo ... mainwindow.obj
 	@echo ... mainwindow.i
 	@echo ... mainwindow.s
+	@echo ... statusdelegate.obj
+	@echo ... statusdelegate.i
+	@echo ... statusdelegate.s
 .PHONY : help
 
 

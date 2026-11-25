@@ -165,6 +165,36 @@ CMakeFiles/AplikasiJadwal.dir/formdeletematkul.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/AplikasiJadwal.dir/formdeletematkul.cpp.s"
 	C:\Qt\Tools\mingw1310_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "E:\Project C++\Qt Creator Project\AplikasiJadwal\formdeletematkul.cpp" -o CMakeFiles\AplikasiJadwal.dir\formdeletematkul.cpp.s
 
+CMakeFiles/AplikasiJadwal.dir/formdaftartugas.cpp.obj: CMakeFiles/AplikasiJadwal.dir/flags.make
+CMakeFiles/AplikasiJadwal.dir/formdaftartugas.cpp.obj: CMakeFiles/AplikasiJadwal.dir/includes_CXX.rsp
+CMakeFiles/AplikasiJadwal.dir/formdaftartugas.cpp.obj: E:/Project\ C++/Qt\ Creator\ Project/AplikasiJadwal/formdaftartugas.cpp
+CMakeFiles/AplikasiJadwal.dir/formdaftartugas.cpp.obj: CMakeFiles/AplikasiJadwal.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="E:\Project C++\Qt Creator Project\AplikasiJadwal\build\Desktop_Qt_6_12_0_MinGW_64_bit_Release\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/AplikasiJadwal.dir/formdaftartugas.cpp.obj"
+	C:\Qt\Tools\mingw1310_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/AplikasiJadwal.dir/formdaftartugas.cpp.obj -MF CMakeFiles\AplikasiJadwal.dir\formdaftartugas.cpp.obj.d -o CMakeFiles\AplikasiJadwal.dir\formdaftartugas.cpp.obj -c "E:\Project C++\Qt Creator Project\AplikasiJadwal\formdaftartugas.cpp"
+
+CMakeFiles/AplikasiJadwal.dir/formdaftartugas.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/AplikasiJadwal.dir/formdaftartugas.cpp.i"
+	C:\Qt\Tools\mingw1310_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "E:\Project C++\Qt Creator Project\AplikasiJadwal\formdaftartugas.cpp" > CMakeFiles\AplikasiJadwal.dir\formdaftartugas.cpp.i
+
+CMakeFiles/AplikasiJadwal.dir/formdaftartugas.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/AplikasiJadwal.dir/formdaftartugas.cpp.s"
+	C:\Qt\Tools\mingw1310_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "E:\Project C++\Qt Creator Project\AplikasiJadwal\formdaftartugas.cpp" -o CMakeFiles\AplikasiJadwal.dir\formdaftartugas.cpp.s
+
+CMakeFiles/AplikasiJadwal.dir/statusdelegate.cpp.obj: CMakeFiles/AplikasiJadwal.dir/flags.make
+CMakeFiles/AplikasiJadwal.dir/statusdelegate.cpp.obj: CMakeFiles/AplikasiJadwal.dir/includes_CXX.rsp
+CMakeFiles/AplikasiJadwal.dir/statusdelegate.cpp.obj: E:/Project\ C++/Qt\ Creator\ Project/AplikasiJadwal/statusdelegate.cpp
+CMakeFiles/AplikasiJadwal.dir/statusdelegate.cpp.obj: CMakeFiles/AplikasiJadwal.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="E:\Project C++\Qt Creator Project\AplikasiJadwal\build\Desktop_Qt_6_12_0_MinGW_64_bit_Release\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/AplikasiJadwal.dir/statusdelegate.cpp.obj"
+	C:\Qt\Tools\mingw1310_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/AplikasiJadwal.dir/statusdelegate.cpp.obj -MF CMakeFiles\AplikasiJadwal.dir\statusdelegate.cpp.obj.d -o CMakeFiles\AplikasiJadwal.dir\statusdelegate.cpp.obj -c "E:\Project C++\Qt Creator Project\AplikasiJadwal\statusdelegate.cpp"
+
+CMakeFiles/AplikasiJadwal.dir/statusdelegate.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/AplikasiJadwal.dir/statusdelegate.cpp.i"
+	C:\Qt\Tools\mingw1310_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "E:\Project C++\Qt Creator Project\AplikasiJadwal\statusdelegate.cpp" > CMakeFiles\AplikasiJadwal.dir\statusdelegate.cpp.i
+
+CMakeFiles/AplikasiJadwal.dir/statusdelegate.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/AplikasiJadwal.dir/statusdelegate.cpp.s"
+	C:\Qt\Tools\mingw1310_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "E:\Project C++\Qt Creator Project\AplikasiJadwal\statusdelegate.cpp" -o CMakeFiles\AplikasiJadwal.dir\statusdelegate.cpp.s
+
 # Object files for target AplikasiJadwal
 AplikasiJadwal_OBJECTS = \
 "CMakeFiles/AplikasiJadwal.dir/AplikasiJadwal_autogen/mocs_compilation.cpp.obj" \
@@ -172,7 +202,9 @@ AplikasiJadwal_OBJECTS = \
 "CMakeFiles/AplikasiJadwal.dir/mainwindow.cpp.obj" \
 "CMakeFiles/AplikasiJadwal.dir/formtambahmatkul.cpp.obj" \
 "CMakeFiles/AplikasiJadwal.dir/formupdatematkul.cpp.obj" \
-"CMakeFiles/AplikasiJadwal.dir/formdeletematkul.cpp.obj"
+"CMakeFiles/AplikasiJadwal.dir/formdeletematkul.cpp.obj" \
+"CMakeFiles/AplikasiJadwal.dir/formdaftartugas.cpp.obj" \
+"CMakeFiles/AplikasiJadwal.dir/statusdelegate.cpp.obj"
 
 # External object files for target AplikasiJadwal
 AplikasiJadwal_EXTERNAL_OBJECTS =
@@ -183,6 +215,8 @@ AplikasiJadwal.exe: CMakeFiles/AplikasiJadwal.dir/mainwindow.cpp.obj
 AplikasiJadwal.exe: CMakeFiles/AplikasiJadwal.dir/formtambahmatkul.cpp.obj
 AplikasiJadwal.exe: CMakeFiles/AplikasiJadwal.dir/formupdatematkul.cpp.obj
 AplikasiJadwal.exe: CMakeFiles/AplikasiJadwal.dir/formdeletematkul.cpp.obj
+AplikasiJadwal.exe: CMakeFiles/AplikasiJadwal.dir/formdaftartugas.cpp.obj
+AplikasiJadwal.exe: CMakeFiles/AplikasiJadwal.dir/statusdelegate.cpp.obj
 AplikasiJadwal.exe: CMakeFiles/AplikasiJadwal.dir/build.make
 AplikasiJadwal.exe: C:/Qt/6.12.0/mingw_64/lib/libQt6Widgets.a
 AplikasiJadwal.exe: C:/Qt/6.12.0/mingw_64/lib/libQt6Sql.a
@@ -193,7 +227,7 @@ AplikasiJadwal.exe: AplikasiJadwal.exe.manifest
 AplikasiJadwal.exe: CMakeFiles/AplikasiJadwal.dir/linkLibs.rsp
 AplikasiJadwal.exe: CMakeFiles/AplikasiJadwal.dir/objects1.rsp
 AplikasiJadwal.exe: CMakeFiles/AplikasiJadwal.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir="E:\Project C++\Qt Creator Project\AplikasiJadwal\build\Desktop_Qt_6_12_0_MinGW_64_bit_Release\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_8) "Linking CXX executable AplikasiJadwal.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir="E:\Project C++\Qt Creator Project\AplikasiJadwal\build\Desktop_Qt_6_12_0_MinGW_64_bit_Release\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_10) "Linking CXX executable AplikasiJadwal.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\AplikasiJadwal.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
